@@ -6,7 +6,7 @@ tags:
   - 工程化
   - 效率
   - 工具
-cover: /images/covers/cover-02.jpg
+cover: /images/covers/cover-05.jpg
 comments: false
 ---
 

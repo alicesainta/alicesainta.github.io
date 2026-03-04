@@ -6,7 +6,5 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
-# 忽略本地面试文章
-source/_posts/frontend-interview-crash-course.md
-source/_posts/frontend-interview-crash-course-answers.md
-source/_posts/frontend-interview-questions-from-notes.md
+
+source/posts

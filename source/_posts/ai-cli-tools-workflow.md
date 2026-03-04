@@ -1,6 +1,6 @@
 ---
 title: AI 编程工具工作流：Claude / Gemini / Codex + CC-Switch + OpenCode
-date: 2026-03-04 11:00:00
+date: 2026-02-12 11:00:00
 categories: 工具
 tags:
   - 工程化
