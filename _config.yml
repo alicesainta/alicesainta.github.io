@@ -15,7 +15,8 @@ timezone: Asia/Shanghai
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 ## 站点正式地址（用于生成永久链接与站内跳转）
-url: https://dashing-kashata-cafc0a.netlify.app
+url: https://alicesainta-sketch.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,7 +104,9 @@ theme: reimu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/alicesainta-sketch/alicesainta-sketch.github.io.git
+  branch: main
 
 feed:
   enable: true
