@@ -51,8 +51,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       hexo-theme-reimu:
-        specifier: ^1.12.1
-        version: 1.12.1
+        specifier: ^1.12.2
+        version: 1.12.2
 
 packages:
 
@@ -452,8 +452,8 @@ packages:
     resolution: {integrity: sha512-jMTosxYsxrTi5bKgM9rO7ySAMyfLihbnSPRYzom/kwI5sMsSa1meYbP59y6fCrB8FdVpLNjj1mak2iyUZW1XhA==}
     engines: {node: '>=14'}
 
-  hexo-theme-reimu@1.12.1:
-    resolution: {integrity: sha512-rlO+rnX2CoBvfWCnd7znEgbjccTHuv1PGS+L3bF99R4EpyPEAM6JbD/1Z8zFdA+iizP4PUU4bwHkNCQN89dpeA==}
+  hexo-theme-reimu@1.12.2:
+    resolution: {integrity: sha512-DbWJ6OZtrJQ41iqhWZ1CJ5RBkqo2zTOHAVvu+ZL2mvlYGbaBerxUWFnAr6jOkKBU35AHZ8oJbq8FAWFou/d9CQ==}
 
   hexo-util@2.7.0:
     resolution: {integrity: sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==}
@@ -1363,7 +1363,7 @@ snapshots:
     dependencies:
       hexo-util: 3.3.0
 
-  hexo-theme-reimu@1.12.1: {}
+  hexo-theme-reimu@1.12.2: {}
 
   hexo-util@2.7.0:
     dependencies:
