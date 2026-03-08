@@ -239,3 +239,26 @@ local_font:
 
 dark_mode:
   enable: false
+
+# 亮色主题降亮（方案 2）：降低白底亮度 + 下调红色强调色
+internal_theme:
+  light:
+    --red-0: "#d14b4b"
+    --red-1: "#de6767"
+    --red-2: "#e58a8a"
+    --red-3: "#edb1b1"
+    --red-4: "#f3cece"
+    --red-5: "#f8e7e7"
+    --red-5-5: "#fbf0f0"
+    --red-6: "#fdf7f7"
+    --color-red-6-shadow: "rgba(209, 75, 75, 0.45)"
+    --color-red-3-shadow: "rgba(209, 75, 75, 0.22)"
+
+    --color-background: "#e6e0d8"
+    --color-wrap: "#f3eee6"
+    --color-footer-background: "#f3eee6"
+    --color-mobile-nav-background: "#f3eee6"
+    --color-header-background: "rgba(243, 238, 230, 0.92)"
+    --color-code-background: "#eee7de"
+    --color-default: "#4d4640"
+    --color-h2-border: "#e4dcd1"

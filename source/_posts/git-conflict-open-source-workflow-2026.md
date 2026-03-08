@@ -139,7 +139,7 @@ git push
 
 `revert` 会新增一个“反向提交”，历史可追溯，适合团队协作和开源仓库。
 
-## Git Commit type 速查（高频）
+## Git Commit type 速查
 
 使用 `type` 说明提交类别：
 
@@ -170,7 +170,7 @@ fix(api): handle empty response in user profile endpoint
 docs(git): add conflict resolution workflow
 ```
 
-## 高频命令速查（只保留常用）
+## 高频命令速查
 
 ```bash
 # 查看状态
