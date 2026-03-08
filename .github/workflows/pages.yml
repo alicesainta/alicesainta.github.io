@@ -35,6 +35,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Inject Cloudflare Web Analytics token
+        env:
+          CF_WEB_ANALYTICS_TOKEN: ${{ secrets.CF_WEB_ANALYTICS_TOKEN }}
+        run: |
+          if [ -z "$CF_WEB_ANALYTICS_TOKEN" ]; then
+            echo "CF_WEB_ANALYTICS_TOKEN is not set. Please add it in GitHub repository secrets."
+            exit 1
+          fi
+          sed -i "s/CF_WEB_ANALYTICS_TOKEN_PLACEHOLDER/$CF_WEB_ANALYTICS_TOKEN/g" _config.reimu.yml
+
       - name: Generate static files
         run: pnpm build
 

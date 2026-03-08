@@ -262,3 +262,18 @@ internal_theme:
     --color-code-background: "#eee7de"
     --color-default: "#4d4640"
     --color-h2-border: "#e4dcd1"
+
+########################################
+# Injector
+########################################
+
+# 通过 CI Secret 注入 Cloudflare Web Analytics token
+# 仓库中仅保留占位符，不存放真实 token
+injector:
+  head_begin:
+  head_end:
+  body_begin:
+  body_end: |-
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"CF_WEB_ANALYTICS_TOKEN_PLACEHOLDER"}'></script>
+  sidebar_begin:
+  sidebar_end:
