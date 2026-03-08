@@ -8,14 +8,14 @@ title: "alicesainta's 技术小站"
 subtitle: "TypeScript / Vue 实践与工程化思考"
 description: "专注结构化与可维护的 UI 交互。"
 keywords:
-author: "alicesainta-sketch"
+author: "alicesainta"
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 ## 站点正式地址（用于生成永久链接与站内跳转）
-url: https://alicesainta-sketch.github.io
+url: https://alicesainta.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -105,7 +105,7 @@ theme: reimu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/alicesainta-sketch/alicesainta-sketch.github.io.git
+  repo: https://github.com/alicesainta/alicesainta.github.io.git
   branch: main
 
 feed:

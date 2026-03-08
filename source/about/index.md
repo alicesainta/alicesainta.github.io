@@ -60,7 +60,7 @@ comments: false
 
 ## 联系方式
 
-- GitHub: [alicesainta-sketch](https://github.com/alicesainta-sketch)
+- GitHub: [alicesainta](https://github.com/alicesainta)
 - Twitter: [AliceSaint5883](https://twitter.com/AliceSaint5883)
 - Bilibili: [个人空间](https://space.bilibili.com/524327153)
 - Discord: [频道入口](https://discord.gg/frQShpVN)
