@@ -45,6 +45,11 @@ comments: false
 - 箭头函数
 - 单引号，双引号，反引号是干什么的
 - 模板字符串 + 解构 + 箭头函数 = 现代前端最常见三件套
+- 闭包的作用是什么？有哪些常见问题（内存泄漏、变量引用）？
+- sessionStorage 和 localStorage 的区别
+- sessionStorage 和 cookie 的区别
+- 前端如何处理二进制文件（Blob / ArrayBuffer / FileReader）
+- 前端向后端传图片的完整步骤是什么（选择文件、预处理、上传、服务端存储）
 
 ## 三、HTML
 
@@ -55,6 +60,7 @@ comments: false
 ## 四、CSS
 
 - CSS 至少两种水平垂直居中的方式
+- CSS 水平居中至少两种方式（块级元素、行内元素场景）
 - Flex 布局
 - flex:1的意思是什么
 - 文本溢出，显示省略号
@@ -89,10 +95,18 @@ comments: false
 ## 八、工程化与 Git
 
 - git rebase 和 git merge 的区别
+- 项目性能优化一般怎么做（指标、定位、验证、回归）
 
 ## 九、网络与浏览器
 
 - URL 输入浏览器发生什么
+- SSE 和 WebSocket 的区别，各自适用场景
+- HTTP/1.0 可以使用 fetch 吗，为什么
+- HTTP/1 和 HTTP/2 的主要区别
+- 跨域是什么，常见解决方案有哪些
+- 浏览器建立连接的过程是什么
+- TCP 建立连接的具体步骤是什么（三次握手）
+- WebSocket 开销为什么会大，主要开销点在哪里
 
 ## 十、计算机基础
 
