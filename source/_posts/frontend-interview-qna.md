@@ -18,6 +18,7 @@ comments: false
 
 - TypeScript 除了 interface 还用什么？
 - 了解继承吗？（TS / JS）
+- TS 了解吗？讲一讲在项目里的具体使用（类型声明、泛型、类型守卫、工具类型）
 
 ## 二、JavaScript / ES6
 
@@ -48,6 +49,8 @@ comments: false
 - 闭包的作用是什么？有哪些常见问题（内存泄漏、变量引用）？
 - sessionStorage 和 localStorage 的区别
 - sessionStorage 和 cookie 的区别
+- cookie、localStorage、sessionStorage 三者的区别与选型
+- 前端如何实现“记住我登录”（自动登录）？token 和过期策略怎么设计
 - 前端如何处理二进制文件（Blob / ArrayBuffer / FileReader）
 - 前端向后端传图片的完整步骤是什么（选择文件、预处理、上传、服务端存储）
 
@@ -56,12 +59,18 @@ comments: false
 - 常用的html标签有哪些
 - html 5中画一个三角形
 - js可以放到header里面吗为啥不行，css为啥放到header里面在html加载前面也可以
+- 行内元素和块级元素的区别是什么？如何互相转换
+- 行内元素、块级元素、行内块元素的区别与典型使用场景
 
 ## 四、CSS
 
 - CSS 至少两种水平垂直居中的方式
 - CSS 水平居中至少两种方式（块级元素、行内元素场景）
+- 盒子模型是什么？标准盒模型和 IE 盒模型有什么区别
 - Flex 布局
+- 弹性盒子（Flex）核心概念是什么？常用属性有哪些
+- 实现水平垂直居中的方式有哪些
+- 伪类和伪元素有什么区别（:hover 和 ::before 的区别）
 - flex:1的意思是什么
 - 文本溢出，显示省略号
 - css是怎么布局的
@@ -74,6 +83,7 @@ comments: false
 
 - Vue 底层实现原理
 - Vue 2 和 Vue 3 的区别
+- Vue 常用指令有哪些？分别用于什么场景
 - Vue2 里数组和对象监听不到的问题怎么处理？
 - 区分一下const,let,var这几个关键字
 - 你是怎么区分后端的数据类型的？从前端的角度回答
@@ -82,6 +92,7 @@ comments: false
 - vue3的生命周期
 - vuex是什么
 - 父子组件通信
+- Element Plus 如果想修改组件样式，你会怎么做
 
 ## 六、React
 
@@ -96,6 +107,7 @@ comments: false
 
 - git rebase 和 git merge 的区别
 - 项目性能优化一般怎么做（指标、定位、验证、回归）
+- 你在项目里做过哪些性能优化？如何用数据证明优化有效
 
 ## 九、网络与浏览器
 
