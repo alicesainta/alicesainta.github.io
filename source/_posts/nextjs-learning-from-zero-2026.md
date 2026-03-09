@@ -64,6 +64,26 @@ pnpm dev
 - 在 Client Component 实现交互（筛选、搜索）
 - 给页面加基础加载态和错误态
 
+## 服务器端渲染（SSR）和非服务器端渲染（CSR）
+
+先把两个概念分清：
+
+- SSR（Server-Side Rendering）：每次请求到来时，由服务端生成 HTML，再返回给浏览器。
+- CSR（Client-Side Rendering）：先返回基础 HTML 和 JS，由浏览器执行 JS 后再渲染页面内容。
+
+核心差异可以从四个角度看：
+
+- 首屏体验：SSR 通常更快看到可读内容；CSR 更依赖 JS 下载和执行。
+- SEO：SSR 对搜索引擎更友好；CSR 需要额外处理爬虫可见性。
+- 交互启动：CSR 在交互型页面更灵活；SSR 需要配合客户端水合。
+- 资源压力：SSR 增加服务端渲染压力；CSR 把更多压力放在客户端。
+
+在 Next.js 里的实际选择：
+
+- 内容展示型页面（文档、博客、营销页）优先考虑 SSR/Server Component。
+- 强交互后台页（表格筛选、复杂表单）可以增加 CSR/Client Component 比重。
+- 一般不是二选一，而是按页面职责混合使用。
+
 ## 第 3 步：状态管理与表单
 
 短期方案：
