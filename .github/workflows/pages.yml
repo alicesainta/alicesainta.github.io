@@ -40,7 +40,8 @@ jobs:
           CF_WEB_ANALYTICS_TOKEN: ${{ secrets.CF_WEB_ANALYTICS_TOKEN }}
         run: |
           if [ -z "$CF_WEB_ANALYTICS_TOKEN" ]; then
-            echo "CF_WEB_ANALYTICS_TOKEN is not set. Skip analytics token injection."
+            echo "CF_WEB_ANALYTICS_TOKEN is not set. Remove placeholder analytics script."
+            sed -i '/CF_WEB_ANALYTICS_TOKEN_PLACEHOLDER/d' _config.reimu.yml
             exit 0
           fi
           escaped_token=$(printf '%s\n' "$CF_WEB_ANALYTICS_TOKEN" | sed 's/[\/&]/\\&/g')
