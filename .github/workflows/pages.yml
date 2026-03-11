@@ -40,13 +40,14 @@ jobs:
           CF_WEB_ANALYTICS_TOKEN: ${{ secrets.CF_WEB_ANALYTICS_TOKEN }}
         run: |
           if [ -z "$CF_WEB_ANALYTICS_TOKEN" ]; then
-            echo "CF_WEB_ANALYTICS_TOKEN is not set. Please add it in GitHub repository secrets."
-            exit 1
+            echo "CF_WEB_ANALYTICS_TOKEN is not set. Skip analytics token injection."
+            exit 0
           fi
-          sed -i "s/CF_WEB_ANALYTICS_TOKEN_PLACEHOLDER/$CF_WEB_ANALYTICS_TOKEN/g" _config.reimu.yml
+          escaped_token=$(printf '%s\n' "$CF_WEB_ANALYTICS_TOKEN" | sed 's/[\/&]/\\&/g')
+          sed -i "s/CF_WEB_ANALYTICS_TOKEN_PLACEHOLDER/$escaped_token/g" _config.reimu.yml
 
-      - name: Generate static files
-        run: pnpm build
+      - name: Validate and generate static files
+        run: pnpm run check
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

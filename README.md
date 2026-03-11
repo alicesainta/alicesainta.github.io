@@ -2,7 +2,7 @@
 
 基于 Hexo + Reimu 的个人技术博客，记录 TypeScript/Vue 工程实践与面试复盘。
 
-站点地址：<https://alicesainta-blog.netlify.app/>
+站点地址：<https://alicesainta.github.io/>
 
 ## 使用
 
@@ -15,6 +15,12 @@ pnpm run server
 
 ```bash
 pnpm build
+```
+
+## 校验
+
+```bash
+pnpm run check
 ```
 
 ## 说明

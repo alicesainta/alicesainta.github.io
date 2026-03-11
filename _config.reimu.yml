@@ -1,7 +1,8 @@
 ########################################
 # Basic Configuration
 ########################################
-theme_version_check: true
+# 在 CI 中网络探测可能导致无意义告警，关闭主题版本在线检查
+theme_version_check: false
 theme_config_check: true
 # main menu navigation
 # 站点导航：只保留首页 / 归档 / 关于

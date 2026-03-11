@@ -102,11 +102,7 @@ ignore:
 theme: reimu
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/alicesainta/alicesainta.github.io.git
-  branch: main
+## 站点发布由 GitHub Actions workflow 负责，这里不再使用 hexo deploy
 
 feed:
   enable: true
