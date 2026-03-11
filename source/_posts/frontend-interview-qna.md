@@ -116,7 +116,17 @@ comments: false
 - URL 输入浏览器发生什么
 - SSE 和 WebSocket 的区别，各自适用场景
 - HTTP/1.0 可以使用 fetch 吗，为什么
-- HTTP/1 和 HTTP/2 的主要区别
+- HTTP/1.1 和 HTTP/2 的主要区别
+- HTTP/1.0 和 HTTP/1.1 有哪些区别
+- GET 和 POST 的区别（幂等性、缓存、参数位置、安全性、长度限制）
+- POST 和 PUT 的区别（创建与更新、幂等性）
+- 常见的 HTTP 请求头和响应头有哪些
+- 常见 Content-Type 有哪些（`application/json`、`multipart/form-data` 等）
+- HTTP 状态码 304 的含义是什么？在缓存协商中起什么作用
+- 常见 HTTP 请求方法有哪些，各自适用场景是什么
+- OPTIONS 请求是什么？为什么在 CORS 预检里会出现
+- HTTP 和 HTTPS 的区别（加密、证书、端口、性能）
+- GET 方法 URL 长度限制的原因是什么
 - 跨域是什么，常见解决方案有哪些
 - 浏览器建立连接的过程是什么
 - TCP 建立连接的具体步骤是什么（三次握手）
