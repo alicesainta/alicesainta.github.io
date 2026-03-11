@@ -83,7 +83,7 @@ it("disabled 状态下不会触发 onClick", async () => {
   render(
     <Button disabled onClick={handleClick}>
       提交
-    </Button>
+    </Button>,
   );
   await user.click(screen.getByRole("button", { name: "提交" }));
 
@@ -128,9 +128,7 @@ it("disabled 状态下不会触发 onClick", async () => {
 
 ## 七、总结
 
-如果你只能先做一件事，优先做这两步：
+优先做这两步：
 
 - 为核心 UI 组件补齐行为测试。
 - 在 CI 中把测试设置为强制门禁。
-
-这两步完成后，代码质量和迭代稳定性会立刻改善。
