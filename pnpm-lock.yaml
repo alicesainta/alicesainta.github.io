@@ -8,18 +8,12 @@ importers:
 
   .:
     dependencies:
-      '@reimujs/hexo-algoliasearch':
-        specifier: ^0.1.0
-        version: 0.1.0(hexo-util@4.0.0)
       '@reimujs/hexo-renderer-markdown-it-plus':
         specifier: ^1.2.3
         version: 1.2.3
       hexo:
         specifier: ^8.1.1
         version: 8.1.1(chokidar@3.6.0)
-      hexo-filter-mermaid-diagrams:
-        specifier: ^1.0.5
-        version: 1.0.5
       hexo-generator-archive:
         specifier: ^2.0.0
         version: 2.0.0
@@ -44,9 +38,6 @@ importers:
       hexo-server:
         specifier: ^3.0.0
         version: 3.0.0
-      hexo-tag-embed:
-        specifier: ^1.0.0
-        version: 1.0.0
       hexo-theme-reimu:
         specifier: ^1.12.2
         version: 1.12.2
@@ -55,54 +46,6 @@ packages:
 
   '@adobe/css-tools@4.3.3':
     resolution: {integrity: sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==}
-
-  '@algolia/cache-browser-local-storage@4.20.0':
-    resolution: {integrity: sha512-uujahcBt4DxduBTvYdwO3sBfHuJvJokiC3BP1+O70fglmE1ShkH8lpXqZBac1rrU3FnNYSUs4pL9lBdTKeRPOQ==}
-
-  '@algolia/cache-common@4.20.0':
-    resolution: {integrity: sha512-vCfxauaZutL3NImzB2G9LjLt36vKAckc6DhMp05An14kVo8F1Yofb6SIl6U3SaEz8pG2QOB9ptwM5c+zGevwIQ==}
-
-  '@algolia/cache-in-memory@4.20.0':
-    resolution: {integrity: sha512-Wm9ak/IaacAZXS4mB3+qF/KCoVSBV6aLgIGFEtQtJwjv64g4ePMapORGmCyulCFwfePaRAtcaTbMcJF+voc/bg==}
-
-  '@algolia/client-account@4.20.0':
-    resolution: {integrity: sha512-GGToLQvrwo7am4zVkZTnKa72pheQeez/16sURDWm7Seyz+HUxKi3BM6fthVVPUEBhtJ0reyVtuK9ArmnaKl10Q==}
-
-  '@algolia/client-analytics@4.20.0':
-    resolution: {integrity: sha512-EIr+PdFMOallRdBTHHdKI3CstslgLORQG7844Mq84ib5oVFRVASuuPmG4bXBgiDbcsMLUeOC6zRVJhv1KWI0ug==}
-
-  '@algolia/client-common@4.20.0':
-    resolution: {integrity: sha512-P3WgMdEss915p+knMMSd/fwiHRHKvDu4DYRrCRaBrsfFw7EQHon+EbRSm4QisS9NYdxbS04kcvNoavVGthyfqQ==}
-
-  '@algolia/client-personalization@4.20.0':
-    resolution: {integrity: sha512-N9+zx0tWOQsLc3K4PVRDV8GUeOLAY0i445En79Pr3zWB+m67V+n/8w4Kw1C5LlbHDDJcyhMMIlqezh6BEk7xAQ==}
-
-  '@algolia/client-search@4.20.0':
-    resolution: {integrity: sha512-zgwqnMvhWLdpzKTpd3sGmMlr4c+iS7eyyLGiaO51zDZWGMkpgoNVmltkzdBwxOVXz0RsFMznIxB9zuarUv4TZg==}
-
-  '@algolia/logger-common@4.20.0':
-    resolution: {integrity: sha512-xouigCMB5WJYEwvoWW5XDv7Z9f0A8VoXJc3VKwlHJw/je+3p2RcDXfksLI4G4lIVncFUYMZx30tP/rsdlvvzHQ==}
-
-  '@algolia/logger-console@4.20.0':
-    resolution: {integrity: sha512-THlIGG1g/FS63z0StQqDhT6bprUczBI8wnLT3JWvfAQDZX5P6fCg7dG+pIrUBpDIHGszgkqYEqECaKKsdNKOUA==}
-
-  '@algolia/requester-browser-xhr@4.20.0':
-    resolution: {integrity: sha512-HbzoSjcjuUmYOkcHECkVTwAelmvTlgs48N6Owt4FnTOQdwn0b8pdht9eMgishvk8+F8bal354nhx/xOoTfwiAw==}
-
-  '@algolia/requester-common@4.20.0':
-    resolution: {integrity: sha512-9h6ye6RY/BkfmeJp7Z8gyyeMrmmWsMOCRBXQDs4mZKKsyVlfIVICpcSibbeYcuUdurLhIlrOUkH3rQEgZzonng==}
-
-  '@algolia/requester-node-http@4.20.0':
-    resolution: {integrity: sha512-ocJ66L60ABSSTRFnCHIEZpNHv6qTxsBwJEPfYaSBsLQodm0F9ptvalFkHMpvj5DfE22oZrcrLbOYM2bdPJRHng==}
-
-  '@algolia/transporter@4.20.0':
-    resolution: {integrity: sha512-Lsii1pGWOAISbzeyuf+r/GPhvHMPHSPrTDWNcIzOE1SG1inlJHICaVe2ikuoRjcpgxZNU54Jl+if15SUCsaTUg==}
-
-  '@reimujs/hexo-algoliasearch@0.1.0':
-    resolution: {integrity: sha512-flqAgtl8KZ85R/3GsCIFRjR+mreifeYD6+Cf7h3ookxqxbL3byClnaOmKs80l8bJn7fjnVJpJKjRDK4DfyUhgg==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      hexo-util: '>=2.0.0'
 
   '@reimujs/hexo-renderer-markdown-it-plus@1.2.3':
     resolution: {integrity: sha512-r3KAmOJe56d88X+xbVVA+4sMf0gY45L2Zw0yiPNpwZHkARC/FclGAT6hTHMfbJMSHgSxjLbdwCuUVEkpbhkf6g==}
@@ -120,9 +63,6 @@ packages:
   abbrev@3.0.1:
     resolution: {integrity: sha512-AO2ac6pjRB3SJmGJo+v5/aK6Omggp6fsLrs6wN9bd35ulu4cCwaAU9+7ZhXjeqHVkaHThLuzH0nZr0YpCDhygg==}
     engines: {node: ^18.17.0 || >=20.5.0}
-
-  algoliasearch@4.20.0:
-    resolution: {integrity: sha512-y+UHEjnOItoNy0bYO+WWmLWBlPwDjKHW6mNHrPi0NkuhpQOOEbrkwQH/wgKFDLh7qlKjzoKeiRtlpewDPDG23g==}
 
   ansi-regex@6.2.2:
     resolution: {integrity: sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg==}
@@ -230,10 +170,6 @@ packages:
     peerDependenciesMeta:
       supports-color:
         optional: true
-
-  deep-assign@2.0.0:
-    resolution: {integrity: sha512-2QhG3Kxulu4XIF3WL5C5x0sc/S17JLgm1SfvDfIRsR/5m7ZGmcejII7fZ2RyWhN0UWIJm0TNM/eKow6LAn3evQ==}
-    engines: {node: '>=0.10.0'}
 
   deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
@@ -369,9 +305,6 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  hexo-filter-mermaid-diagrams@1.0.5:
-    resolution: {integrity: sha512-/IkIMKn4V7PBAzMJGNDPSoBFlv1JGvIELXm5AWkR8N5N44kDTNJLtabb4h095UhZQIXOrF9zA1WYhi6wrWLW5Q==}
-
   hexo-front-matter@4.2.1:
     resolution: {integrity: sha512-sJJI0GNmejYiwBvgnGRKn5V3sbODB4dNPr8jyw2Qp0PRHr4Uuyv8iyxw6WfK3+T7yvzYvJOh+tZ7jnwr2BYARA==}
     engines: {node: '>=14'}
@@ -427,10 +360,6 @@ packages:
   hexo-server@3.0.0:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
-
-  hexo-tag-embed@1.0.0:
-    resolution: {integrity: sha512-jMTosxYsxrTi5bKgM9rO7ySAMyfLihbnSPRYzom/kwI5sMsSa1meYbP59y6fCrB8FdVpLNjj1mak2iyUZW1XhA==}
-    engines: {node: '>=14'}
 
   hexo-theme-reimu@1.12.2:
     resolution: {integrity: sha512-DbWJ6OZtrJQ41iqhWZ1CJ5RBkqo2zTOHAVvu+ZL2mvlYGbaBerxUWFnAr6jOkKBU35AHZ8oJbq8FAWFou/d9CQ==}
@@ -493,10 +422,6 @@ packages:
   is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
-
-  is-obj@1.0.1:
-    resolution: {integrity: sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg==}
-    engines: {node: '>=0.10.0'}
 
   is-plain-object@5.0.0:
     resolution: {integrity: sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==}
@@ -793,9 +718,6 @@ packages:
     resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==}
     engines: {node: '>=8'}
 
-  striptags@3.2.0:
-    resolution: {integrity: sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw==}
-
   strnum@2.1.2:
     resolution: {integrity: sha512-l63NF9y/cLROq/yqKXSLtcMeeyOfnSQlfMSlzFt/K73oIaD8DGaQWd7Z34X9GPiKqP5rbSh84Hl4bOlLcjiSrQ==}
 
@@ -871,74 +793,6 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@algolia/cache-browser-local-storage@4.20.0':
-    dependencies:
-      '@algolia/cache-common': 4.20.0
-
-  '@algolia/cache-common@4.20.0': {}
-
-  '@algolia/cache-in-memory@4.20.0':
-    dependencies:
-      '@algolia/cache-common': 4.20.0
-
-  '@algolia/client-account@4.20.0':
-    dependencies:
-      '@algolia/client-common': 4.20.0
-      '@algolia/client-search': 4.20.0
-      '@algolia/transporter': 4.20.0
-
-  '@algolia/client-analytics@4.20.0':
-    dependencies:
-      '@algolia/client-common': 4.20.0
-      '@algolia/client-search': 4.20.0
-      '@algolia/requester-common': 4.20.0
-      '@algolia/transporter': 4.20.0
-
-  '@algolia/client-common@4.20.0':
-    dependencies:
-      '@algolia/requester-common': 4.20.0
-      '@algolia/transporter': 4.20.0
-
-  '@algolia/client-personalization@4.20.0':
-    dependencies:
-      '@algolia/client-common': 4.20.0
-      '@algolia/requester-common': 4.20.0
-      '@algolia/transporter': 4.20.0
-
-  '@algolia/client-search@4.20.0':
-    dependencies:
-      '@algolia/client-common': 4.20.0
-      '@algolia/requester-common': 4.20.0
-      '@algolia/transporter': 4.20.0
-
-  '@algolia/logger-common@4.20.0': {}
-
-  '@algolia/logger-console@4.20.0':
-    dependencies:
-      '@algolia/logger-common': 4.20.0
-
-  '@algolia/requester-browser-xhr@4.20.0':
-    dependencies:
-      '@algolia/requester-common': 4.20.0
-
-  '@algolia/requester-common@4.20.0': {}
-
-  '@algolia/requester-node-http@4.20.0':
-    dependencies:
-      '@algolia/requester-common': 4.20.0
-
-  '@algolia/transporter@4.20.0':
-    dependencies:
-      '@algolia/cache-common': 4.20.0
-      '@algolia/logger-common': 4.20.0
-      '@algolia/requester-common': 4.20.0
-
-  '@reimujs/hexo-algoliasearch@0.1.0(hexo-util@4.0.0)':
-    dependencies:
-      algoliasearch: 4.20.0
-      hexo-util: 4.0.0
-      striptags: 3.2.0
-
   '@reimujs/hexo-renderer-markdown-it-plus@1.2.3':
     dependencies:
       '@vscode/markdown-it-katex': 1.1.2
@@ -965,23 +819,6 @@ snapshots:
   abbrev@2.0.0: {}
 
   abbrev@3.0.1: {}
-
-  algoliasearch@4.20.0:
-    dependencies:
-      '@algolia/cache-browser-local-storage': 4.20.0
-      '@algolia/cache-common': 4.20.0
-      '@algolia/cache-in-memory': 4.20.0
-      '@algolia/client-account': 4.20.0
-      '@algolia/client-analytics': 4.20.0
-      '@algolia/client-common': 4.20.0
-      '@algolia/client-personalization': 4.20.0
-      '@algolia/client-search': 4.20.0
-      '@algolia/logger-common': 4.20.0
-      '@algolia/logger-console': 4.20.0
-      '@algolia/requester-browser-xhr': 4.20.0
-      '@algolia/requester-common': 4.20.0
-      '@algolia/requester-node-http': 4.20.0
-      '@algolia/transporter': 4.20.0
 
   ansi-regex@6.2.2: {}
 
@@ -1090,10 +927,6 @@ snapshots:
   debug@4.4.3:
     dependencies:
       ms: 2.1.3
-
-  deep-assign@2.0.0:
-    dependencies:
-      is-obj: 1.0.1
 
   deepmerge@4.3.1: {}
 
@@ -1222,10 +1055,6 @@ snapshots:
       resolve: 1.22.11
       tildify: 2.0.0
 
-  hexo-filter-mermaid-diagrams@1.0.5:
-    dependencies:
-      deep-assign: 2.0.0
-
   hexo-front-matter@4.2.1:
     dependencies:
       js-yaml: 4.1.1
@@ -1298,10 +1127,6 @@ snapshots:
       serve-static: 1.16.3
     transitivePeerDependencies:
       - supports-color
-
-  hexo-tag-embed@1.0.0:
-    dependencies:
-      hexo-util: 3.3.0
 
   hexo-theme-reimu@1.12.2: {}
 
@@ -1401,8 +1226,6 @@ snapshots:
       is-extglob: 2.1.1
 
   is-number@7.0.0: {}
-
-  is-obj@1.0.1: {}
 
   is-plain-object@5.0.0: {}
 
@@ -1672,8 +1495,6 @@ snapshots:
   strip-indent@3.0.0:
     dependencies:
       min-indent: 1.0.1
-
-  striptags@3.2.0: {}
 
   strnum@2.1.2: {}
 

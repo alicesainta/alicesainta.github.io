@@ -45,7 +45,8 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
-future: true
+# 默认不发布未来日期文章，避免误把排期内容带进产物
+future: false
 syntax_highlighter: highlight.js
 highlight:
   line_number: true

@@ -23,6 +23,8 @@ pnpm build
 pnpm run check
 ```
 
+`check` 会先执行 `hexo clean`，再重新生成静态产物，避免旧缓存影响校验结果。
+
 ## 说明
 
 - Hexo 配置：`_config.yml`
