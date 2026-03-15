@@ -9,7 +9,6 @@ tags:
   - Agent
   - 前端
   - 工程化
-  - 学习记录
 cover: /images/covers/cover-04.jpg
 comments: false
 sticky: false

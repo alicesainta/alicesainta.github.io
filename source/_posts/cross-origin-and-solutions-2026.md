@@ -6,7 +6,6 @@ tags:
   - 前端
   - 网络
   - 跨域
-  - CORS
 cover: /images/covers/cover-11.jpg
 comments: false
 ---

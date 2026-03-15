@@ -7,7 +7,7 @@ categories:
 tags:
   - JavaScript
   - 前端
-  - 性能
+  - 性能优化
   - 防抖
   - 节流
 cover: /images/covers/cover-09.jpg

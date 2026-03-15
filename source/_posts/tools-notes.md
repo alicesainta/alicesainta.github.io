@@ -5,7 +5,6 @@ categories: 工具
 tags:
   - 工程化
   - 效率
-  - 工具
 cover: /images/covers/cover-05.jpg
 comments: false
 ---
@@ -46,5 +45,4 @@ cloc 是统计代码行数的事实标准，它非常智能，会自动忽略空
 ### 下载与传输
 
 - qBittorrent：下载管理工具，用于管理 BT 任务、限速和队列调度。
-
 

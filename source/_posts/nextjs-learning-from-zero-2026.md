@@ -6,8 +6,7 @@ tags:
   - Next.js
   - React
   - 前端
-  - 学习记录
-cover: /images/covers/cover-02.jpg
+cover: /images/covers/cover-05.jpg
 comments: false
 ---
 

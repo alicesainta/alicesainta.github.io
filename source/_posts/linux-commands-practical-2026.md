@@ -4,7 +4,7 @@ date: 2026-01-12 08:40:00
 categories: 学习记录
 tags:
   - Linux
-  - 命令行
+  - CLI
   - 工程化
   - 运维基础
 cover: /images/covers/cover-06.jpg
@@ -229,5 +229,4 @@ rg "CF_WEB_ANALYTICS_TOKEN" .
    - 拥有者可读写执行，组和其他用户可读执行。
 3. 你常用哪些日志排查命令？
    - `tail -f`、`grep`、`less`、`head`/`tail`。
-
 
