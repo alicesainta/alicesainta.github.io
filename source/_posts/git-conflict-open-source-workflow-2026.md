@@ -156,6 +156,14 @@ git push
 - `chore`：杂项维护（非业务功能）
 - `revert`：回滚某次提交
 
+- docs : 文档、文章修改（最适合写博客文章）
+- feat : 新功能 (feature)
+- fix : 修复 bug
+- style : 代码格式修改（不影响代码运行的变动）
+- refactor : 代码重构（即不是新增功能，也不是修改 bug 的代码变动）
+- chore : 构建过程或辅助工具的变动
+- test : 增加测试
+
 常用提交格式：
 
 ```bash
