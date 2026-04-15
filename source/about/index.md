@@ -60,13 +60,21 @@ comments: false
 
 ## 联系方式
 
-- GitHub: [alicesainta](https://github.com/alicesainta)
-- Twitter: [AliceSaint5883](https://twitter.com/AliceSaint5883)
-- Bilibili: [个人空间](https://space.bilibili.com/524327153)
-- Discord: [频道入口](https://discord.gg/frQShpVN)
+### 社区与交流
 
-QQ 和 WeChat 可以找我要哦。
+如果你对本博客的内容感兴趣，欢迎加入：
+
+- **QQ 交流群**: [417411367](417411367 前端工程化与 AI 交流 比较二次元)
+- **Discord**: [频道入口](https://discord.gg/frQShpVN)
+
+### 个人社交
+
+- **GitHub**: [alicesainta](https://github.com/alicesainta)
+- **Twitter**: [AliceSaint5883](https://twitter.com/AliceSaint5883)
+- **Bilibili**: [个人空间](https://space.bilibili.com/524327153)
+
+_注：如需更私密的沟通（QQ/WeChat），可以在上述社交平台私信我。_
 
 ---
 
-最后更新：2026-04-11
+最后更新：2026-04-15
