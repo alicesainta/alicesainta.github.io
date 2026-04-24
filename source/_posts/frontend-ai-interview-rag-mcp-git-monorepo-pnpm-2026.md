@@ -11,7 +11,7 @@ tags:
   - Git
   - Monorepo
   - pnpm
-cover: /images/covers/cover-02.jpg
+cover: /images/covers/cover-07.jpg
 comments: false
 ---
 

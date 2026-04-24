@@ -9,7 +9,7 @@ tags:
   - 无限滚动
   - 虚拟列表
   - JavaScript
-cover: /images/covers/cover-11.jpg
+cover: /images/covers/cover-04.jpg
 comments: false
 ---
 

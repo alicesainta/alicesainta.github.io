@@ -7,7 +7,7 @@ tags:
   - CLI
   - 工程化
   - 运维基础
-cover: /images/covers/cover-06.jpg
+cover: /images/covers/cover-09.jpg
 comments: false
 ---
 

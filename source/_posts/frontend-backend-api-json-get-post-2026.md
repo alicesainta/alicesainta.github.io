@@ -8,7 +8,7 @@ tags:
   - 网络
   - HTTP
   - 工程化
-cover: /images/covers/cover-06.jpg
+cover: /images/covers/cover-11.jpg
 comments: false
 sticky: false
 mermaid: false

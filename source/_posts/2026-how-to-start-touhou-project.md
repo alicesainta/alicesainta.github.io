@@ -7,7 +7,7 @@ tags:
   - 幻想乡
   - 红魔馆
   - 最爱
-cover: /images/covers/cover-04.jpg
+cover: /images/covers/cover-03.jpg
 comments: false
 ---
 

@@ -8,7 +8,7 @@ tags:
   - Vue
   - 数据库
   - 工程化
-cover: /images/covers/cover-03.jpg
+cover: /images/covers/cover-11.jpg
 comments: false
 ---
 

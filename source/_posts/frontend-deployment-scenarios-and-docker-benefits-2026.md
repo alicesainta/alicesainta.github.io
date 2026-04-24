@@ -9,7 +9,7 @@ tags:
   - 前端
   - 部署
   - 工程化
-cover: /images/covers/cover-10.jpg
+cover: /images/covers/cover-03.jpg
 comments: false
 sticky: false
 mermaid: false

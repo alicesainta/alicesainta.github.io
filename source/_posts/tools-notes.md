@@ -5,7 +5,7 @@ categories: 工具
 tags:
   - 工程化
   - 效率
-cover: /images/covers/cover-05.jpg
+cover: /images/covers/cover-10.jpg
 comments: false
 ---
 

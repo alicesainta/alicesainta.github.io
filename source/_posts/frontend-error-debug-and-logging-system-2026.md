@@ -9,7 +9,7 @@ tags:
   - 调试
   - 日志
   - 工程化
-cover: /images/covers/cover-07.jpg
+cover: /images/covers/cover-01.jpg
 comments: false
 sticky: false
 mermaid: false

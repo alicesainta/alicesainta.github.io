@@ -9,7 +9,7 @@ tags:
   - Agent
   - 工程化
   - Claude Code
-cover: /images/covers/cover-11.jpg
+cover: /images/covers/cover-05.jpg
 comments: false
 sticky: false
 mermaid: false

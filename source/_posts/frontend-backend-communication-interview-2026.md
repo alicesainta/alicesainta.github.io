@@ -9,7 +9,7 @@ tags:
   - 跨域
   - 安全
   - 工程化
-cover: /images/covers/cover-08.jpg
+cover: /images/covers/cover-06.jpg
 comments: false
 ---
 

@@ -11,7 +11,7 @@ tags:
   - Vue
   - JavaScript
   - CSS
-cover: /images/covers/cover-01.jpg
+cover: /images/covers/cover-10.jpg
 comments: false
 ---
 

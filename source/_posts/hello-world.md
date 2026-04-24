@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2024-06-12 17:49:32
+cover: /images/covers/cover-01.jpg
 categories: 学习记录
 tags:
   - 工具

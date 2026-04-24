@@ -8,7 +8,7 @@ tags:
   - AI
   - 工程化
   - 数据结构
-cover: /images/covers/cover-01.jpg
+cover: /images/covers/cover-05.jpg
 comments: false
 sticky: false
 mermaid: false

@@ -6,7 +6,7 @@ tags:
   - 前端
   - 网络
   - 跨域
-cover: /images/covers/cover-11.jpg
+cover: /images/covers/cover-02.jpg
 comments: false
 ---
 

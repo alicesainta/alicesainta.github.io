@@ -9,7 +9,7 @@ tags:
   - 开源
   - 协作
   - 冲突解决
-cover: /images/covers/cover-09.jpg
+cover: /images/covers/cover-07.jpg
 comments: false
 ---
 

@@ -9,7 +9,7 @@ tags:
   - 容器
   - 工程化
   - 部署
-cover: /images/covers/cover-09.jpg
+cover: /images/covers/cover-04.jpg
 comments: false
 sticky: false
 mermaid: false

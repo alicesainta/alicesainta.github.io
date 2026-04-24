@@ -1,6 +1,7 @@
 ---
 title: 美化github首页嘤～
 date: 2022-08-23 17:45:42
+cover: /images/covers/cover-02.jpg
 tags: [杂项, node, ci/cd]
 ---
 

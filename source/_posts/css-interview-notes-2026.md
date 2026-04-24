@@ -6,7 +6,7 @@ tags:
   - CSS
   - 前端面试
   - 前端八股
-cover: /images/covers/cover-08.jpg
+cover: /images/covers/cover-10.jpg
 comments: false
 ---
 

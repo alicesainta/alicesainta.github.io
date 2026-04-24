@@ -8,7 +8,7 @@ tags:
   - Node.js
   - package.json
   - 工程化
-cover: /images/covers/cover-07.jpg
+cover: /images/covers/cover-08.jpg
 comments: false
 ---
 

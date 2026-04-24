@@ -8,7 +8,7 @@ tags:
   - Git
   - 版本控制
   - 工程化
-cover: /images/covers/cover-09.jpg
+cover: /images/covers/cover-06.jpg
 comments: false
 ---
 

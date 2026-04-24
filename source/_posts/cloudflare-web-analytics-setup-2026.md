@@ -9,7 +9,7 @@ tags:
   - Analytics
   - GitHub Pages
   - 工程化
-cover: /images/covers/cover-10.jpg
+cover: /images/covers/cover-08.jpg
 comments: false
 ---
 

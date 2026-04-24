@@ -8,7 +8,7 @@ tags:
   - UI测试
   - React
   - 工程化
-cover: /images/covers/cover-02.jpg
+cover: /images/covers/cover-11.jpg
 comments: false
 ---
 
