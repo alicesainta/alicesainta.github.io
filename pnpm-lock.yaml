@@ -39,8 +39,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-theme-reimu:
-        specifier: ^1.12.3
-        version: 1.12.3
+        specifier: ^1.12.5
+        version: 1.12.5
 
 packages:
 
@@ -361,8 +361,8 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-reimu@1.12.3:
-    resolution: {integrity: sha512-fKW73k4VtHGGYdq6WxejY5pmaffhUftXq6iHen7vtRie3dLlY3Erd06kZpT4oJ10aka72st0DcY0LgxYohLjbg==}
+  hexo-theme-reimu@1.12.5:
+    resolution: {integrity: sha512-cQBb0EyQ/R3cTV6b4ZMtkbToqQaWhzgvj4OGzxtd3ZTdw7QGqkmo6DU07jUt5WljSrR8dDD4SRgZ0c5ndxCtYw==}
 
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
@@ -1128,7 +1128,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-reimu@1.12.3: {}
+  hexo-theme-reimu@1.12.5: {}
 
   hexo-util@3.3.0:
     dependencies:
